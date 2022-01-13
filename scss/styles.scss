@@ -452,12 +452,22 @@ footer {
     border-bottom: 1px solid $border;
 
     h2 {
+        padding-left: 30px;
         color: $heading;
     }
 
     p {
+        padding: 20px 0px;
         color: $text;
         margin: 0;
+    }
+
+    img {
+      //position: relative;
+      width: 200px;
+      height: 190px;
+      border-radius: 50%;
+      border: 5px solid #05386b;
     }
 }
 
